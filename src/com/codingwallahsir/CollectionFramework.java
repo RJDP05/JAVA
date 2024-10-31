@@ -120,6 +120,26 @@ public class CollectionFramework {
 
 
 
+        //========================Map=========================
+        //HashMap
+        System.out.println("========================Map=========================");
+        HashMap<String,Integer> hashMap = new HashMap<>();
+        hashMap.put("First",10);
+        hashMap.put("Second",20);
+        hashMap.put("Fifth",20);
+        hashMap.put("Sixth",90);
+        hashMap.put("Third",30);
+        System.out.println(hashMap);
+
+        //TreeMap ->It sorts the keys in alphabetical order
+        TreeMap<String,Integer> treeMap = new TreeMap<>();
+        treeMap.put("First",10);
+        treeMap.put("Second",20);
+        treeMap.put("Fifth",20);
+        treeMap.put("Sixth",90);
+        treeMap.put("Third",30);
+        System.out.println(treeMap);
+
 
 
     }
