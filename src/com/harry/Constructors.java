@@ -3,7 +3,7 @@ class MyMainEmployee{
     private int id;
     private String name;
 
-    public MyMainEmployee(){
+    MyMainEmployee(){
         id = 0;
         name = "Your-Name-Here";
     }
@@ -28,7 +28,7 @@ public class Constructors {
         -> A Member of Function used to initialise an object while creating it
            in order to write our own constructor, we define a method with the same name
            as our class.
-           We can overload constructors like methods
+           We can overload constructors like method
            Constructors can take parameters without being overloaded
          */
         //MyMainEmployee harry = new MyMainEmployee("ProgrammingWithHarry", 12);
